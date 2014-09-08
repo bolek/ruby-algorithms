@@ -25,7 +25,7 @@ module RPN
     when token.is_a?(Integer)
       token
     else
-      fail "No idea how to parse #{el}"
+      fail "No idea how to parse #{token}"
     end
   end
 
